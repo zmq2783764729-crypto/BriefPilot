@@ -16,6 +16,7 @@
 - 本地根目录：当前 briefpilot 文件夹。初始化分支为 codex/initial。
 - 2026-10-12 从原共享工作目录拆分；原父仓库的暂存区与配置备份在父目录 .local/repository-backups，不是本项目依赖。
 - origin：https://github.com/zmq2783764729-crypto/BriefPilot.git。提交身份使用用户选择的 GitHub 用户名与隐私邮箱；同步状态按 git status 与远端检查核实。
+- GitHub 已推送：本机 codex/initial 跟踪 origin/codex/initial；日常在本仓库使用 git pull --ff-only、git push。
 - Python 3.12；按 README 用 uv sync --locked 重建环境。本机辅助 uv 在父目录 .local/bootstrap/bin，不随仓库同步。
 - Docker 的 Virtual Machine Platform/WSL 环境仍待安装后验证；这不影响此前骨架验收。
 
@@ -56,7 +57,8 @@
 - 完成：本项目单独的计划、进度、Git 忽略/换行规则；README 和范围文档链接改为仓库内路径。
 - 代码：保留第 01 天全部实现与依赖锁文件，未改动业务代码。
 - 验证：第 01 天测试结果沿用上文已有记录；此次仅检查拆分后的 Git 边界、文件链接和排除规则，不声称重新执行应用测试。
-- 下一步：完成首次提交与 GitHub 推送；应用开发继续第 02 天。
+- 提交/同步：初始代码提交 e07eabc，已正常推送至 origin/codex/initial；交接文档随后单独提交同步。
+- 下一步：应用开发继续第 02 天；在本仓库同步代码与 progress.md。
 
 ## 开工提示词
 
